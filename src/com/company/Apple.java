@@ -1,24 +1,17 @@
 package com.company;
 
+import java.awt.*;
+
 public class Apple extends Phone {
+    String  string;
 
 
-    public Apple(int price, String name, int model, String color, int dateOfRelease, Made_in made_in) {
-        super(price, name, model, color, dateOfRelease, made_in);
+    public Apple(int price,  int model, String color, int dateOfRelease, Made_in made_in) {
+        super(price, model, color, dateOfRelease, made_in); }
+    public void setColor  (String color){
+        System.out.print("Space Grey"); }
+    public void setColor() {
     }
-    public void setPrice  (String Color){
-        System.out.println("Space Grey");
-
-    }
-
-    public final void setPrice() {
-        System.out.println("Price depends on ...");
-
-
-
-
-    }
-
 
     @Override
     public String getInfo() {

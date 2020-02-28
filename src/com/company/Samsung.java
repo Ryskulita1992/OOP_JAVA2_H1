@@ -6,8 +6,8 @@ public class Samsung extends Phone{
 
     private int Warranty;
 
-    public Samsung(int price, String name, int model, String color, int dateOfRelease, Made_in made_in) {
-        super(price, name, model, color, dateOfRelease, made_in);
+    public Samsung(int price ,  int model , String color , int dateOfRelease , Made_in made_in) {
+        super(price, model, color, dateOfRelease, made_in);
     }
 
     @Override
